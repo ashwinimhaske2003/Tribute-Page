@@ -48,7 +48,25 @@ function AboutSection() {
                     <span className='FirstSubLineOfSA'>Partner:</span>
                     <span className='SecondSubLineOfSA'>Georgina Rodríguez (2016-ongoing).</span>
                 </div>
-            </div>
+            </div><br></br>
+            <section class="timeline" id="life-info">
+            <h2>Timeline of Ronaldo's life</h2>
+            <ul>
+                <li><strong> 1985</strong>: Cristiano Ronaldo dos Santos Aveiro is born on February 5, in Funchal, Madeira, Portugal.</li>
+                <li><strong>1997</strong>: Joins the youth academy of Sporting Lisbon at the age of 12.</li>
+                <li><strong>2002</strong>: Makes his professional debut for Sporting Lisbon at the age of 17.</li>
+                <li><strong>2003</strong>: Signed by Manchester United for £12.24 million, becoming the most expensive teenager in English football history at the time.</li>
+                <li><strong>2004</strong>: Scores his first goal for Portugal in a friendly match against Greece.</li>
+                <li><strong>2006</strong>: Helps Portugal reach the final of the FIFA World Cup, finishing as runners-up.</li>
+                <li><strong>2008</strong>: Wins the UEFA Champions League with Manchester United, scoring in the final against Chelsea.</li>
+                <li><strong>2009</strong>: Transfers to Real Madrid for a then-world record transfer fee of £80 million..</li>
+                <li><strong>2010</strong>: Wins his first Ballon d'Or award, given to the world's best player.</li>
+                <li><strong>2016</strong>: Leads Portugal to victory in the UEFA European Championship, Portugal's first major international trophy.</li>
+                 
+                <li><strong>2018</strong> Moves to Juventus from Real Madrid for €100 million, becoming one of the highest-paid athletes in the world..</li>
+                 <li><strong>2021</strong>Becomes the all-time leading goal scorer in men's international football.</li>
+            </ul>
+        </section>
 
             
                 
@@ -58,3 +76,4 @@ function AboutSection() {
 }
 
 export default AboutSection;
+
