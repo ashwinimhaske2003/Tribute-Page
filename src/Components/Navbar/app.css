@@ -1,0 +1,49 @@
+.navbarLis {
+    justify-content: flex-end; /* Align items to the right */
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+}
+
+.navbarLis a{
+    color: #fbfbfb !important; /* Change text color to white */
+}
+
+.navbarLis a:hover{
+    color: #ffffff !important; /* Change hover color */
+}
+
+.navbar {
+    background-color: hsl(0, 21%, 52%) !important; /* Change navbar background color */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 10px 0; /* Increase padding */
+}
+
+.logoOfNavbar {
+    color: #ffffff;
+    font-size: 30px; /* Increase font size */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.BtnOfToogleNavbar{
+    width: 50px;
+    height: 50px;
+    border: none; /* Remove border */
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Change icon color */
+    font-size: 25px;
+    background: none; /* Remove background */
+}
+
+.BtnOfToogleNavbar:focus {
+    outline: none; /* Remove focus outline */
+}
+
+@media (max-width: 991px) {
+    .BtnOfToogleNavbar{
+        display: flex !important;
+    }
+}

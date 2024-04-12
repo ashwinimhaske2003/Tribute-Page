@@ -1,0 +1,87 @@
+.ClubsSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.h2OfClubsSection {
+    font-size: 60px;
+    color: rgb(18, 16, 16);
+    margin-left: 150px;
+    font-family: "Jacques Francois";
+    letter-spacing: 2px;
+}
+
+.currentTeamsLine,
+.previousTeamsLine {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.currentTeamsDiv,
+.previosTeamsDiv {
+    background-color: rgb(198, 176, 189);
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+    scale: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out; /* Add transition for background-color */
+}
+
+.currentTeamsDiv:hover,
+.previosTeamsDiv:hover {
+    background-color: rgb(130, 23, 23); /* Change background color on hover */
+    
+        filter: brightness(90%); /* Decrease brightness to make it appear white */
+        transform:scale(1.1);
+    
+}
+
+.currentTeamsDiv {
+    width: 450px;
+    height: 500px;
+}
+
+.previosTeamsDiv {
+    width: 350px;
+    height: 450px;
+}
+
+.currentTeamsDiv img,
+.previosTeamsDiv img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.headingOfPreviosTeams,
+.headingOfCurrentTeams {
+    font-weight: bold;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.previosTeamsDiv.fade-out,
+.currentTeamsDiv.fade-out {
+    animation: fadeOut 1s ease-in-out forwards;
+}
+
+.previosTeamsDiv:hover,
+.currentTeamsDiv:hover {
+    animation: none; /* Remove fade-out animation on hover */
+}

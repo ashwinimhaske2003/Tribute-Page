@@ -1,0 +1,40 @@
+.FooterSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9e5d5d;
+    flex-wrap: wrap;
+    color: rgb(184, 178, 178);
+    text-shadow: #232d37;
+}
+
+.FooterSection span{
+    font-size: 18px;
+}
+
+.iconsDivOfFooter{
+    margin: 15px 0;
+}
+
+.iconsDivOfFooter a{
+    padding: 5px 10px;
+    height: 50px;
+    color: white;
+    margin: 0 10px;
+    font-size: 27px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all .5s ease-in-out;
+}
+
+.iconsDivOfFooter a:hover{
+    background-color: white;
+    color: #232d37;
+}
+
+@media (max-width: 500px) {
+    .FooterSection {
+        justify-content: center;
+    }
+}

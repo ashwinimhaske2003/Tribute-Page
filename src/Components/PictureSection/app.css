@@ -1,0 +1,39 @@
+.PictureSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.h2OfPictureSection {
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.picturesDiv {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgOfRonaldo {
+    flex: 1;
+    width: 200px; /* Set width to match the desired size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 15%);
+    scale: 1;
+    transition: all .5s ease-in-out;
+}
+
+.imgOfRonaldo:nth-child(n+6) {
+    width: 200px; /* Set width to match the desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+.imgOfRonaldo:hover {
+    filter: brightness(50%); /* Decrease brightness to make it appear white */
+    transform:scale(1.1);
+}

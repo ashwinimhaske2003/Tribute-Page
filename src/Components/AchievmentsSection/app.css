@@ -1,0 +1,69 @@
+.AchievmentSection {
+    width: 90vw;
+    margin: 20vh auto !important;
+}
+
+.h2OfAchievmentSection {
+    font-family: "DM Serif Text";
+    font-weight: normal;
+    font-size: 50px;
+    color: rgb(7, 7, 7);
+}
+
+.achiementsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.singleAchiement {
+    width: 300px;
+    text-align: center;
+    flex: 1;
+    height: 450px;
+    background-color: rgb(184, 151, 173);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black !important;
+    scale: 1;
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+
+.singleAchiement:hover {
+    scale: 1.08;
+}
+
+
+.singleAchiement img {
+    width: 200px;
+    height: 280px;
+    object-fit: contain;
+}
+
+.headingOfAchievements {
+    font-weight: bold;
+}
+
+.showMoreBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .showMoreBtn:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+  }
+  
+  
